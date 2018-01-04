@@ -35,4 +35,5 @@ class Php53Phalcon < AbstractPhp53Extension
     prefix.install "modules/phalcon.so"
     write_config_file if build.with? "config-file"
   end
+
 end
